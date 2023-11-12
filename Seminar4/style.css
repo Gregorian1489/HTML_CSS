@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+
+.header_link1{
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+.header_link1:hover{
+    color: #000;
+}
+
+.header_link{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 20px;
+    transition: color 0.3s;
+}
+
+.header_link:hover{
+    color: #F25822;
+}
+
+.fa-angle-down{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.title{
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+
+.text{
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 37px;
+}
+
+.top_buttons{
+    padding-bottom: 162px;
+}
+
+.button1{
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 72px;
+}
+
+.button1:hover{
+    color: #000;
+}
+
+.button2{
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.button2:hover{
+    color: #000;
+}
+
+
+.logos{
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
