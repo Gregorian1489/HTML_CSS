@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    height: 75px;
+    background-color: #222;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.nav_icon1 {
+    margin-left: 231px;
+    margin-top: 18px;
+}
+
+.nav_icon2{
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 41px;
+}
+
+.nav_icon3{
+    width: 159px;
+    height: 29px;
+    margin-right: 240px;
+    margin-top: 26px;  
+}
+
+.header_content{
+    background-color: #F1E4E6;
+}
+
+.header_content_right{
+    display: flex;
+    padding-left: 92px;
+    padding-top: 290px;
+
+}
+
+.figure {
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+    background-color:  #F16D7F;
+    margin-right: 16px;
+}
+
+.the_brand{
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.of_luxerious{
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fashion{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top {
+    background-color: #FFF;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.top_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/back_rect1.png);
+    width: 360px;
+    height: 260px;
+}
+
+.top_img {
+    position: relative;
+    opacity: 0.5;
+}
+
+.top_item_large {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/back_rect2.png) ;
+    width: 1140px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.first_subtitile {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_subtitle {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.salary{
+    background-color: #FFF;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.salary_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.salary_info1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_info2 {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_item {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    align-items: center;
+    justify-content: center;
+}
+
+.figure_2{
+    width: 360px;
+    height: 420px;
+    background-color: #F7E4E2;
+    position: relative;
+}
+
+.salary_img2{
+    position: absolute;
+}
+.img_and_back{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.salary_item_text {
+    padding: 24px 16px;
+}
+
+.salary_item_text_1{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.salary_item_text_2{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.salary_item_text_3{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+.btm {
+position: absolute;
+}
+
+.buttom_text {
+    position: relative;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
