@@ -1,0 +1,357 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.center{
+    padding-left: calc(50% - 685px);
+    padding-right: calc(50% - 685px);
+}
+
+.flex {
+    display: flex;
+}
+
+.top__container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    min-height: 75px;
+    background-color: #222;
+    padding-bottom: 20px;
+}
+
+.nav_icon1 {
+    margin-top: 18px;
+}
+
+.nav_icon2{
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
+    margin-left: 41px;
+}
+
+.nav_icon3{
+    width: 159px;
+    height: 29px;
+    margin-top: 26px;  
+}
+
+
+.top_banner{
+    background-color: #f1e4e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: c;
+    height: 764px;
+}
+
+.tbc_right{
+    display: flex;
+    flex-direction: row;
+    margin-left: 63px;
+    margin-top: 290px;
+    margin-bottom: 381px;
+    margin-right: 331px;
+    width: 405px;
+    height: 93px;
+}
+
+.text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1;
+    color: #222222;
+}
+
+.rectangle {
+    width: 12px;
+    height: 92px;
+    flex-shrink: 0;
+    background-color:  #F16D7F;
+    margin-right: 16px;
+}
+
+
+span.h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+span.h2pink {
+    color: #f16d7f;
+}
+
+.top {
+    background-color: #FFF;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.top_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/back_rect1.png);
+    width: 360px;
+    height: 260px;
+}
+
+.top_img {
+    position: relative;
+    opacity: 0.5;
+}
+
+.top_img_l{
+    position: relative;
+    opacity: 0.5;
+}
+
+.top_item_large {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/img/back_rect2.png);
+    width: 1140px;
+    height: 180px;
+    flex-shrink: 0;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.first_subtitile {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second_subtitle {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.salary{
+    background-color: #FFF;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.salary_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.salary_info1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_info2 {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_item {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 360px);
+    align-items: center;
+    justify-content: center;
+}
+
+.figure_2{
+    width: 360px;
+    height: 420px;
+    background-color: #F7E4E2;
+    position: relative;
+}
+
+.salary_img2{
+    position: absolute;
+}
+.img_and_back{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.salary_item_text {
+    padding: 24px 16px;
+}
+
+.salary_item_text_1{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.salary_item_text_2{
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.salary_item_text_3{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.salary_buttom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
+.btm {
+position: absolute;
+}
+
+.buttom_text {
+    position: relative;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .center {
+        padding-left: calc(50% - 368px);
+        padding-right: calc(50% - 368px);
+    }
+
+    .top__container {
+        width: 1024px;
+    }
+
+    .container{
+        width: 736px;
+    }
+
+    .top_banner {
+        height: 368px;
+    }
+
+    .tbc_image {
+        min-width: 386px;
+    }
+
+    .tbc_right {
+        display: flex;
+        flex-direction: row;
+        margin-left: 39px;
+        margin-top: 138px;
+        margin-bottom: 138px;
+        margin-right: 33px;
+        width: 311px;
+        height: 92px;
+    }
+
+    .text {
+        font-size: 44px;
+        line-height: 0.9;
+    }
+    
+    span.h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .top {
+        grid-template-columns: repeat(3, 231px);
+        gap: 20px;
+    }
+
+    .top_item {
+        width: 231px;
+        height: 167px;
+    }
+
+    .top_img{
+        width: 231px;
+        height: 167px;
+    }
+
+    .top_item_large {
+        width: 734px;
+        height: 116px;
+    }
+
+    .top_img_l {
+        width: 734px;
+        height: 116px; 
+    }
+
+    .salary_text {
+        margin-bottom: 72px;
+    }
+
+    .salary_item  {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(2, 360px);
+        align-items: center;
+        justify-content: center;
+    }
+}
+    
