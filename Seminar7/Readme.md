@@ -11,4 +11,4 @@
 3. Мобильную версию сайта создавать не нужно.
 
 Скриншот версии для планшета:
-![Screen]([/img/screen.png](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar7/img/screen.png)https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar7/img/screen.png)
+![Screen](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar7/img/screen.png)
