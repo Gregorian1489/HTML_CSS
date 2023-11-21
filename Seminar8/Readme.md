@@ -9,4 +9,5 @@
 2. Создать мобильную версию проекта
 
 Скриншоты выполненной версии для планшета:
-![Screen](/img/screen.png)
+![Screen1](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar8/img/Screen1.png)
+![Screen2](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar8/img/Screen2.png)
