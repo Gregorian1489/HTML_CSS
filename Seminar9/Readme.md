@@ -11,7 +11,7 @@
 * Добавляем эффекты наведения.
 
 Скриншоты:
-![Footer_Desktop]((https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar9/img/Screen1_Desktop.png)
+![Footer_Desktop](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar9/img/Screen1_Desktop.png)
 ![Footer_1024](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar9/img/Screen2_1024_768.png)
 ![Footer_mobile](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar9/img/Screen3_mobile.png)
 ![Menu-Hover](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar9/img/Screen4_menu_hover.png)
