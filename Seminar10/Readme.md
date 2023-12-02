@@ -9,10 +9,10 @@
 3. * Разместить сайт в сети интернет.
   
 Выполнение:
-* Проверка на валидность: \
+* Проверка на валидность: 
 ![BEFORE](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar10/img/Screen_before.png)
 
-* После исправления ошибок: \
+* После исправления ошибок: 
 
 ![AFTER](https://github.com/Gregorian1489/HTML_CSS/blob/main/Seminar10/img/Screen_after.png)
 
